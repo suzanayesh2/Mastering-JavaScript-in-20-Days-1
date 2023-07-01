@@ -16,7 +16,7 @@ function fun1() {
 
 // Only change code above this line
 ```
-*[Local Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions)
+* [Local Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions)
 ## My Solution 
 ```javascript
 function myLocalScope() {
