@@ -44,12 +44,11 @@ myOutfit();
 
 * [Stand in Line](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/stand-in-line)
   ## My Solution
-  ```javascript
+```javascript
 function nextInLine(arr, item) {
   // Only change code below this line
   arr.push(item)
   return arr.shift();
   // Only change code above this line
 }
-
-  ```
+```
