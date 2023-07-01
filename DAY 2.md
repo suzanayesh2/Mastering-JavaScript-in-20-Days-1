@@ -8,3 +8,13 @@
 
 
 ``` 
+* [Copy Array Items Using slice()](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice)
+## My Solution
+```javascript
+function forecast(arr) {
+  // Only change code below this line
+  const array = arr.slice(2,4)
+  return array;
+}
+
+``` 
