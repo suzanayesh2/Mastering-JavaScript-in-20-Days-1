@@ -33,6 +33,6 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 1. Celebrate your achievements and reflect on your growth throughout the challenge. 
 
 # Folder Structure
-1. [DAY 1]()
+1. [DAY 1](DAY 1 .md)
 1. [DAY 2]()
 1. [DAY 3]()
