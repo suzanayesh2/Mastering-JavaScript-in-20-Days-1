@@ -5,7 +5,18 @@
 * [Profile Lookup](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup)
 ## My Solution
 ```javascript
+function lookUpProfile(name, prop) {
+  // Only change code below this line
+  for (let i = 0; i < contacts.length; i++) {
+    if(contacts[i].firstName === name) {
+      return contacts[i][prop] || "No such property";
+    }
+  }
+  return "No such contact";
 
+ 
+    // Only change code above this line
+}
 
 ``` 
 * [Copy Array Items Using slice()](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice)
