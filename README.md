@@ -35,4 +35,4 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 # Folder Structure
 1. [DAY 1](https://github.com/M-Alsuleibi/JavaScriptLearningSprint/blob/main/DAY%201%20.md)
 1. [DAY 2](https://github.com/M-Alsuleibi/JavaScriptLearningSprint/blob/main/DAY%202.md)
-1. [DAY 3]()
+1. [DAY 3](https://github.com/M-Alsuleibi/JavaScriptLearningSprint/blob/main/DAY%203.md)
