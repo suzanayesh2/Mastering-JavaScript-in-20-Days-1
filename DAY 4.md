@@ -33,5 +33,7 @@ if ([]) {
 # Map & filter
 ## Lesson Summary:
 
-  * **map** calls a function on each item in an array to create new array .
-  *  **filter** calls a true/false function on each item and creates a new array only with items where the function returns true
+  * ***map*** calls a function on each item in an array to create new array .
+  *  ***filter*** calls a true/false function on each item and creates a new array only with items where the function returns true
+  *  ***Spread(...)*** is another trick for iterating over arrays.Can be used to put all the items from one array inside another array
+
