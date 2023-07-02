@@ -10,6 +10,8 @@ Here are the key points covered:
 * Event object passed as parameter to handler function ,which carries details about exactly what happened.e.g event.target is the element the event fired on.
 
 # Conditionals
+## Lesson Summary:
+
 * JS evaluation boolean when using If statment to its Truthiness or falseness 
 ## Code Example 
 ```javascript
@@ -27,4 +29,9 @@ if ([]) {
 } // prints empty array is truthy
 // because array is an object(its something!)
 ```
-* 
+*  for .. of loop iterate over items in a collection more easily than traditional loops
+# Map & filter
+## Lesson Summary:
+
+  * ** map ** calls a function on each item in an array to create new array .
+  *  ** filter ** calls a true/false function on each item and creates a new array only with items where the function returns true
