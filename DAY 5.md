@@ -11,3 +11,11 @@ Here are the key points covered:
      * Pending 
      * Fulfilled
      * Rejected
+* fetch() is asynchronous function which return a promise. So we use **await** keyword to wait and capture that promise in an object (response) .So await going to deal with fetch as a synchronous operation .
+* response object have alot of information include **body** which we interested in. so to retrive body data we use json()(response.json())
+* **response.json()** also return a promise so we use **await** again e.g :
+  
+```javascript
+let body = await response.json();
+```
+to finally access body data.
