@@ -22,3 +22,13 @@ to finally access body data.
 # Destructuring Data( _const {👤, 🎂,📍 } = person_ )
 
 ## Lesson Summary:
+* we can extrac values from an object with their property names (order does not matter).
+* We can also destructure Arrays, assigning variables for their items (order matters).
+* We can ignore specific properties/ values.
+* we can use spread(...) to capture remaining values into array instead of expanding
+  ### code example:
+  ```javascript
+   const [babySpice, ...adultSpices] = spices;
+  ```
+
+
