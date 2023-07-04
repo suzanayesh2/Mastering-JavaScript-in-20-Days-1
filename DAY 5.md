@@ -26,9 +26,9 @@ to finally access body data.
 * We can also destructure Arrays, assigning variables for their items (order matters).
 * We can ignore specific properties/ values.
 * we can use spread(...) to capture remaining values into array instead of expanding
-  ### code example:
+  ##### code example:
   ```javascript
    const [babySpice, ...adultSpices] = spices;
   ```
-
+* 
 
