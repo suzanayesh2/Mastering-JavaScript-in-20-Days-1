@@ -19,3 +19,6 @@ Here are the key points covered:
 let body = await response.json();
 ```
 to finally access body data.
+# Destructuring Data( _const {👤, 🎂,📍 } = person_ )
+
+## Lesson Summary:
