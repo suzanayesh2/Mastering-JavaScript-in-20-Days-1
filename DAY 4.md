@@ -37,10 +37,10 @@ if ([]) {
   *  ***filter*** calls a true/false function on each item and creates a new array only with items where the function returns true
   *  ***Spread(...)*** is another trick for iterating over arrays.Can be used to put all the items from one array inside another array
         * We can use it also to pass all elemnts of an array as an argument to a function:
-     ```javascript
+```javascript
     const skills = ["HTML", "CSS", "JS"];
     const newSkills = ["React", "TypeScript", "Node"]
     skills.push(...newSkills);
     console.log(...skills);
-     ```
+```
 
