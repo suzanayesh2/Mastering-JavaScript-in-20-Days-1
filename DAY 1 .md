@@ -1,6 +1,9 @@
 # DAY 1 : Introduction,DOM,Values & Data Types And Operators
 
-## I intend to summarize the knowledge acquired from the Frontend Master videos. However, since I don't currently have access to these courses via my GitHub Education benefits pack, which is still unavailable, I will focus on summarizing FreeCodeCamp coding exercises and including code implementation. As per GSG guidelines, once the benefits become accessible, I will watch the videos and update this file accordingly.
+# Introduction:
+[Frontend Masters course “JavaScript First Steps"](https://frontendmasters.com/workshops/javascript-first-steps/) which constructed by _[Anjana Vakil](https://twitter.com/AnjanaVakil)_. This course will lead you through your first steps with the JavaScript programming language, equip you with the key concepts & skills you need to become a productive JS programmer, and give you a solid foundation for your onward journey into advanced JS, functional programming, frontend frameworks, and beyond.
+# DOM:
+
  # Coding Exercises
 * [Find the Length of a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/find-the-length-of-a-string)
 ## My Solution
