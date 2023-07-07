@@ -3,8 +3,8 @@
 ## Lesson Summary:
 *  * 4 / 2 * 10
    * "Frontend" + "Masters"
-    * 5 > 4 !== 3 > 4
- are examples of expressions   
+    * 5 > 4 !== 3 > 4   
+  ARE examples of expressions  __an expression evaluates to a value__   
 
 
 # Coding Exercises
