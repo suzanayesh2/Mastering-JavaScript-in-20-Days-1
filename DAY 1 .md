@@ -14,11 +14,17 @@
 
      ```
     ##### //Find the number of squares 
-   ```javascript
+   * ```javascript
      const squares = document.querySelectorAll(".square").length;
 
 
      ```
+    ##### //Change the player names to you & neighbor
+   * ```javascript
+      document.getElementById('p1-name').textContent ="mohammad"
+
+
+     ``` 
  # Coding Exercises
 * [Find the Length of a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/find-the-length-of-a-string)
 ## My Solution
