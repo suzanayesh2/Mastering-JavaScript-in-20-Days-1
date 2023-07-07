@@ -40,6 +40,9 @@
 
 
      ```
+# Operators:
+## Lesson Summary:
+* * ,+, -, / , %,> , < , ===, == , !== , ..etc
 
      
  # Coding Exercises
