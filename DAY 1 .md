@@ -24,7 +24,24 @@
       document.getElementById('p1-name').textContent ="mohammad"
 
 
-     ``` 
+     ```
+# Values & Data Types :
+## Lesson Summary:
+* typeof operator
+* Primitive data types:
+    * strings(made of character units) , numbers ,boolean, undefine ...etc
+* Objects:
+    * includes null as a historical mistake when JS had implemented as i understood.
+#### Exercise code example __[tic tac toe](https://anjana.dev/javascript-first-steps/1-tictactoe.html)__:
+  ##### //Capitalize the heading "Tic Tac Toe"
+
+   * ```javascript
+      document.querySelector('h1').textContent.toUpperCase();
+
+
+     ```
+
+     
  # Coding Exercises
 * [Find the Length of a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/find-the-length-of-a-string)
 ## My Solution
