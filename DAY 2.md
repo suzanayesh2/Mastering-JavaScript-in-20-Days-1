@@ -4,7 +4,9 @@
 *  * 4 / 2 * 10
    * "Frontend" + "Masters"
     * 5 > 4 !== 3 > 4   
-  ARE examples of expressions  __an expression evaluates to a value__   
+  ARE examples of expressions  (_an expression evaluates to a value_)
+* Variables point(not contan) to values
+* An expression asks JavaScript for a value, while a statement tells JavaScript to do something.
 
 
 # Coding Exercises
