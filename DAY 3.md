@@ -2,9 +2,23 @@
 # Quiz Project:
 * we start our quiz project with a starter [_strater_](https://anjana.dev/javascript-first-steps/2-jsquiz-starter.html) ,we learned to open it in VS Code. Here the exercise with related solution code :
   * Exercise
-     * declare statement, optionButtons, and explanation variables with their corresponding element(s)
-     * create a facts object representing one true/false fact you've learned about JS
+     * declare statement, optionButtons, and explanation variables with their corresponding element(s).
+       
+         ```javascript
+          const statement = document.getElementById("statement");
+          const optionButtons = document.querySelector("#options").children;
+           const explanation = document.getElemntById("explanation"); 
+        ```
+     * create a facts object representing one true/false fact you've learned about JS.
+        ```javascript
+          const fact = {
+                statement :" Arrays are like objects",
+                answer : true,
+                explanation:"Arrays are a kind of object with special properties"
+        }; 
+        ```
      * use the statement element to display your fact
+
 # Coding Exercises
 * [Global Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)
 ## My Solution
