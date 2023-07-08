@@ -17,8 +17,11 @@
                 explanation:"Arrays are a kind of object with special properties"
         }; 
         ```
-     * use the statement element to display your fact
-
+     * use the statement element to display your fact.
+        ```javascript
+            statement.textContent = fact.statement;
+        ```
+           
 # Coding Exercises
 * [Global Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)
 ## My Solution
