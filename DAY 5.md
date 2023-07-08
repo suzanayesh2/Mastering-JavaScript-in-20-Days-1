@@ -44,3 +44,9 @@ to finally access body data.
      await fetchResponse(url) 
   ```
 
+# Modules:
+## Lesson Summary:
+* Modules let us split big codebases across multiple files.
+* Modules create their own scope,so to let multiple module files access different data from each other, we use _import_ & _export_ .
+   * export lets us expose variables from our module's scope to the outside world
+   * import lets us use an exposed variable from another module
