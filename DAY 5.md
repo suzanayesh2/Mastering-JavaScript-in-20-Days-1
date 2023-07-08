@@ -30,5 +30,17 @@ to finally access body data.
   ```javascript
    const [babySpice, ...adultSpices] = spices;
   ```
-* 
+# Async:
+## Lesson Summary:
+* We use _async_ keyword when declaring a function to fetch data as shown in code below:
+  ```javascript
+    async function fetchResponse(url) {
+    const response = await fetch(url);
+    return response;
+   }
+  ```
+  * This fucntion will return a promise so we use the _await_ again to extract data as this function is already asynchronous operation.
+   ```javascript
+     await fetchResponse(url) 
+  ```
 
