@@ -1,7 +1,10 @@
 # DAY 3: Quiz Project And Quiz Project Functions
-
-
-## I intend to summarize the knowledge acquired from the Frontend Master videos. However, since I don't currently have access to these courses via my GitHub Education benefits pack, which is still unavailable, I will focus on summarizing FreeCodeCamp coding exercises and including code implementation. As per GSG guidelines, once the benefits become accessible, I will watch the videos and update this file accordingly.
+# Quiz Project:
+* we start our quiz project with a starter [](https://anjana.dev/javascript-first-steps/2-jsquiz-starter.html) ,we learned to open it in VS Code. Here the exercise with related solution code :
+      ###### Exercise
+                  * declare statement, optionButtons, and explanation variables with their corresponding element(s)
+                  * create a facts object representing one true/false fact you've learned about JS
+                  * use the statement element to display your fact
 # Coding Exercises
 * [Global Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)
 ## My Solution
