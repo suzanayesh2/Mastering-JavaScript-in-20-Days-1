@@ -32,9 +32,12 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 1. Engage with the other GSG trainees. Seek support, share insights, and collaborate with fellow learners using the dedicated discussion telegram channel.
 1. Celebrate your achievements and reflect on your growth throughout the challenge. 
 
-# Folder Structure
+# Folder Structure:
+## Week 1:
 1. [DAY 1](https://github.com/M-Alsuleibi/JavaScriptLearningSprint/blob/main/DAY%201%20.md)
 1. [DAY 2](https://github.com/M-Alsuleibi/JavaScriptLearningSprint/blob/main/DAY%202.md)
 1. [DAY 3](https://github.com/M-Alsuleibi/JavaScriptLearningSprint/blob/main/DAY%203.md)
 1. [DAY 4](https://github.com/M-Alsuleibi/Mastering-JavaScript-in-20-Days/blob/main/DAY%204.md)
 1. [DAY 5](https://github.com/M-Alsuleibi/Mastering-JavaScript-in-20-Days/blob/main/DAY%205.md)
+## Week 2:
+1. [DAY 1](https://github.com/M-Alsuleibi/Mastering-JavaScript-in-20-Days/blob/main/Week%202.md/Day%201.md)
