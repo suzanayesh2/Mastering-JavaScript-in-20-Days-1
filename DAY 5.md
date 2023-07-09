@@ -19,6 +19,7 @@ Here are the key points covered:
 let body = await response.json();
 ```
 to finally access body data.
+  * The Promise we get from fetch() resolves to a Response object. It's body contains the data we care about ( in console shows as ``` body : ReadableStream ``` ) this why we use .json()
 # Destructuring Data( _const {👤, 🎂,📍 } = person_ )
 
 ## Lesson Summary:
