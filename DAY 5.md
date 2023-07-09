@@ -1,4 +1,4 @@
-# DAY 5:Data Fetching & Promises, Destructuring Data ,Async And Modules
+# DAY 5: Data Fetching & Promises, Destructuring Data ,Async And Modules
 This README provides an overview of the JavaScript lessons covering Data Fetching & Promises, Destructuring Data ,Async And Modules. Each topic is briefly summarized below in my own words.
 
 # Data Fetching & Promises:
@@ -50,3 +50,7 @@ to finally access body data.
 * Modules create their own scope,so to let multiple module files access different data from each other, we use _import_ & _export_ .
    * export lets us expose variables from our module's scope to the outside world
    * import lets us use an exposed variable from another module
+ * console.log() (or .warn() or .error()) is one way to understand what's happening when your program runs.
+ * The debugger statement creates a breakpoint where JS will pause and let you look around
+ * #### Error handling:
+    _try_ lets us "watch out" for potential error its friend _catch_ lets us manage errors when they occur
