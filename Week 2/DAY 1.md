@@ -23,7 +23,19 @@ function is currently running
 * Callbacks and high order functions:
    * Higher-order funcion is the outer function that takes in a function or passes out a funcion
    * Callback function is the one we insert in.
- # Coding Exercises
+ # Coding Exercises:
+ * [Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem)
+  ## My solution :
+  ```javascript
+    const squareList = arr => {
+  // Only change code below this line
+  return arr
+          .filter(num => num > 0 && num % parseInt(num) === 0)
+          .map(num => Math.pow(num, 2));
+  // Only change code above this line
+   };
+
+  ```
 
 * [Question 1: Functions and Callbacks](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day1-tasks/tasks.md)
 ## My solution :
@@ -37,6 +49,36 @@ async function mapAsync(arr,instruction){
 } 
 const result = mapAsync([1,2,3],input => input+3)
 console.log(result); // prints : Promise { [ 4, 5, 6 ] }
+```
+* [Question 2: Call Stack and Recursion](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day1-tasks/tasks.md)
+## My solution :
+### with recursion
+```javascript
+function sumRange(r1,r2){ 
+    if(r1==r2){
+        return r1
+    }else{
+
+        return (r1 + sumRange(r1 + 1 ,r2));
+
+    }
+}
+console.log(sumRange(1,7)); // prints: 28
+```
+### Without recursion:
+```javascript
+function sumRange(r1, r2) {
+    let sum = 0;
+    if (r1 < r2) {
+        for (let i = r1; i <= r2; i++) {
+            sum += i;
+        }
+    }
+    return sum
+
+}
+const sum =sumRange(1, 7)
+console.log(sum); // prints: 28
 ```
 
 
