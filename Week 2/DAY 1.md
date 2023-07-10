@@ -36,6 +36,7 @@ function is currently running
    };
 
   ```
+## Exercises for functions and callbacks:
 
 * [Question 1: Functions and Callbacks](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day1-tasks/tasks.md)
 ## My solution :
