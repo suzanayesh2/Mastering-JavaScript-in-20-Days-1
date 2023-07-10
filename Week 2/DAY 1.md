@@ -27,3 +27,6 @@ function is currently running
 1. Call stack to keep track where is our thread of execution is using our call stack 
 # Functions & Callbacks:
 ## Lesson Summary:
+* Generalize the function to make it reusable and to preserve the the principle _**DRY**_(Don't Repeat Yourself)
+    * Parameters mean we don’t need to decide what data to run our functionality on until we run the function and then 
+    * Then provide an actual value (argument) when we run the function.
