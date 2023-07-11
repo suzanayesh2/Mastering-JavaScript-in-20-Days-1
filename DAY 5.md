@@ -55,6 +55,6 @@ to finally access body data.
  * The debugger statement creates a breakpoint where JS will pause and let you look around
  * #### Error handling:
     _try_ lets us "watch out" for potential error its friend _catch_ lets us manage errors when they occur
-  # [Rick and Morty API Task](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week1-day5-task/task.md):
+  # Rick and Morty API Task:
   ## My solution:
 [Rick and Morty API Task](https://github.com/M-Alsuleibi/Rick-and-Morty-API)
