@@ -1,2 +1,2 @@
-# Closure:
+# DAY 2: Closure
 
