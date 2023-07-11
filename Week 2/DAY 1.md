@@ -1,4 +1,4 @@
-# Day 1: Introduction, JavaScript Principles, Functions & Callbacks: 
+# DAY 1: Introduction, JavaScript Principles, Functions & Callbacks: 
 # Introduction And JavaScript Principles:
 ## Lesson Summary:
 When JavaScript code runs, it :
