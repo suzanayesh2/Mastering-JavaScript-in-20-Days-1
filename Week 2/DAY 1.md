@@ -1,5 +1,5 @@
 # Day 1: Introduction, JavaScript Principles, Functions & Callbacks: 
-# JavaScript Principles:
+# Introduction And JavaScript Principles:
 ## Lesson Summary:
 When JavaScript code runs, it :
 1. Goes through the code line-by-line and runs/ ’executes’ each line - known as **the thread of execution**
