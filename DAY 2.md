@@ -36,4 +36,17 @@ function forecast(arr) {
   return array;
 }
 
-``` 
+```
+* [Combine Arrays with the Spread Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/combine-arrays-with-the-spread-operator)
+* ## My Solution
+
+```javascript
+
+function spreadOut() {
+  let fragment = ['to', 'code'];
+  let sentence = ['learning',...fragment,'is','fun']; // Change this line
+  return sentence;
+}
+
+console.log(spreadOut());
+```
