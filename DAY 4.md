@@ -90,5 +90,26 @@ golfScore(5, 4);
 * [Use the map Method to Extract Data from an Array](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-map-method-to-extract-data-from-an-array)
   ## My Solution:
 ```javascript
+  // Only change code below this line
+
+const ratings = watchList.map(item => ({
+  title: item["Title"],
+  rating: item["imdbRating"]
+}));
+
+// Only change code above this line
+```
+* [Use the filter Method to Extract Data from an Array](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-filter-method-to-extract-data-from-an-array)
+   ## My Solution:
+```javascript
+// Only change code below this line
+
+const filteredList = watchList
+  .filter(item => item.imdbRating >= 8.0)
+  .map(item => ({ title: item["Title"], rating: item["imdbRating"] }));
+// Only change code above this line
+console.log(filteredList);
+
+// Only change code above this line
 
 ```
