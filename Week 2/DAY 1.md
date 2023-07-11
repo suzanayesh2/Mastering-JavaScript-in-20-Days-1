@@ -23,7 +23,8 @@ function is currently running
 * Callbacks and high order functions:
    * Higher-order funcion is the outer function that takes in a function or passes out a funcion
    * Callback function is the one we insert in.
-* In JavaScript, all functions are first class functions.Functions that can be assigned to a variable, passed into another function, or returned from another function just like any other normal value, are called first class functions. 
+* In JavaScript, all functions are first class functions.Functions that can be assigned to a variable, passed into another function, or returned from another function just like any other normal value, are called first class functions.
+* [Pair programming challenges](http://csbin.io/callbacks).
  # Coding Exercises:
  * [Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem)
   ## My solution :
