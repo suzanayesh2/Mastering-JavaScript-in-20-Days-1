@@ -11,7 +11,7 @@
         - Persistent Lexical Scope Referenced Data (P.L.S.R.D.)
         - ‘Backpack’
         - ‘Closure’
-* [Pair programming challenges](http://csbin.io/closures). 
+* [Pair programming challenges](http://csbin.io/closures) and [solutions](https://github.com/FrontendMasters/fm-snippets/blob/main/javascript-hard-parts-v2/closures.js) . 
 
 # Coding Exercises:
 ### Question 1:
@@ -35,3 +35,51 @@ console.log(counter()); // Output: 2
 console.log(counter()); // Output: 3
 
 ```
+### Question 2:
+Write a closure named calculateAverage that takes an array of numbers, nums, and returns a function. The returned function, when invoked, should calculate and return the average of the numbers in the array.
+### My solution:
+```javascript
+function calculateAverage(nums) {
+    let sum = 0;
+    let count = nums.length;
+  
+    nums.forEach((num) => {
+      sum += num;
+    });
+  
+    return function () {
+      return sum / count;
+    };
+  }
+  const nums = [1, 2, 3, 4];
+  const average = calculateAverage(nums);
+
+   console.log(average()); // Prints: 2.5
+```
+### Question 3:
+Write a closure named powerOf that takes a base number base and returns a function. The returned function, when invoked with an exponent exp, should calculate and return the result of base raised to the power of exp.
+### My solution:
+```javascript
+function powerOf(base) {
+    function exponentFun(exp) {
+        return base ** exp;
+    }
+    return exponentFun
+}
+
+let base = 2;
+const result = powerOf(base)
+console.log(result(2)); // Prints: 4
+```
+### Question 4:
+Write a closure named compose that takes multiple functions as arguments and returns a new function. The returned function should apply the provided functions in reverse order, passing the result of each function as an argument to the next function.
+### My solution:
+```javascript
+function compose(...functions){ //????????
+    return function (){
+
+    }
+
+}
+```
+
