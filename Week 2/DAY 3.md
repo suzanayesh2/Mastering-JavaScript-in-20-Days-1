@@ -141,4 +141,31 @@ console.log("Me first!");
  1. Add the function to the Call stack (i.e. run the function) when:
     - Call stack is empty & all global code run (Have the Event Loop check this condition)
  3. Prioritize functions in the microtask queue over the Callback queue
-
+# Code Exercises:
+[Question 1](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day3-tasks/tasks.md)
+## My Solution with CHATGPT Assessment:
+##### Note: I tried to figure out what to pass in callback parameter in the given [task](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day3-tasks/tasks.md) but i get confused . So i get help from openAI hoping have a clearer idea about it.
+```javascript
+const executeInSequenceWithCBs = (tasks, callback) => {
+    const messages = [];
+    let completedTasks = 0;
+  
+    const executeTask = (task) => {
+      task((message) => {
+        messages.push(message);
+        completedTasks++;
+  
+        if (completedTasks === tasks.length) {
+          callback(messages);
+        } else {
+          executeTask(tasks[completedTasks]);
+        }
+      });
+    };
+  
+    executeTask(tasks[0]);
+  };
+  executeInSequenceWithCBs(asyncTasks, (messages) => {
+    console.log(messages);
+  });
+```
