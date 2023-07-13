@@ -121,4 +121,21 @@ func()
   - Special objects built into JavaScript that get returned immediately when we makea call to a web browser API/feature (e.g. fetch) that’s set up to return promises(not all are)
    - Promises act as a placeholder for the data we expect to get back from the web browser feature’s background work
 
+* This diagram explains what happens in the _code example below_ involving both web browser APIs and promises.
+   * The problem begins by instantiating functions into the global memory, then a setTimeout function is called, and a fetch call is made to a Twitter API. It's demonstrated how each of these things end up in the context of the web browser, callback queue, or call stack.
+   * The promise is returned by the fetch call, and the "then" statement is reached and the function call is placed on the callback queue. The thread of execution is then blocked by a function, and a log statement is reached.
+![1689287470974](https://github.com/M-Alsuleibi/Mastering-JavaScript-in-20-Days/assets/73719352/63bac9f0-849b-427b-9cea-104c8ae12cd8)
+
+```javascript
+function display(data){console.log(data)}
+function printHello(){console.log("Hello");}
+function blockFor300ms(){/* blocks js thread for 300ms }
+setTimeout(printHello, 0);
+const futureData = fetch('https://twitter.com/will/tweets/1')
+futureData.then(display)
+blockFor300ms()
+console.log("Me first!");
+```
+
+
 
