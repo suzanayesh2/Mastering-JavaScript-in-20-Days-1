@@ -21,10 +21,7 @@
 * When setTimeout is called, it doesn't break the rule of JavaScript being single-threaded.
 #### Callback Queue And Event Loop:
 * the functionality of the event loop, which ties the call stack and callback queue together.
-#### There is a problem in ES5 Web Browser APIs with callback functions such that : Callback hell. So ES6+ comes with a solution : Promises
-* Using two-pronged ‘facade’ functions that both:
-  - Initiate background web browser work and
-   - Return a placeholder object (promise) immediately in JavaScript
+
  # [Pair programming challenges :Asynchronicity](http://csbin.io/async)
  ###### Note: We recommend that after you complete a challenge, you re-comment out the test case for that challenge so the console output is not confusing when working on subsequent challenges.
 #### My solution 
@@ -93,8 +90,35 @@ function limitedRepeat() {
 }
 // Uncomment the following line to check your work!
 // limitedRepeat(); // should log (every second, for 5 seconds): hi for now
+
+/* CHALLENGE 6 */
+
+function everyXsecsForYsecs(func,interval,duration) {
+  // ADD CODE HERE
+   let count = 0;
+  let id = setInterval(() => {
+func()
+    count+=interval
+    if(count >= duration) {
+      clearInterval(id)
+    }
+  }, interval)
+}
+
+// Uncomment the following lines to check your work!
+// function theEnd() {
+//   console.log('This is the end!');
+// }
+// everyXsecsForYsecs(theEnd, 2, 20); // should invoke theEnd function every 2 seconds, for 20 seconds): This is the end!
 ```
 
- 
+##  Promises:
+## Lesson summary : 
+* #### There is a problem in ES5 Web Browser APIs with callback functions such that : Callback hell. So ES6+ comes with a solution : Promises
+* Using two-pronged ‘facade’ functions that both:
+  - Initiate background web browser work and
+  - Return a placeholder object (promise) immediately in JavaScript
+  - Special objects built into JavaScript that get returned immediately when we makea call to a web browser API/feature (e.g. fetch) that’s set up to return promises(not all are)
+   - Promises act as a placeholder for the data we expect to get back from the web browser feature’s background work
 
 
