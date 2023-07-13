@@ -15,9 +15,11 @@
   - Promises
   - Event loop, Callback/Task queue and micro task queue
 #### Asynchronous Browser Features:
-* To interact with the features that the browser offers, JavaScript offers "facade functions" that look like JavaScript, but are actually part of the browser. Examples of these functions include console, fetch, document, and setTimeout.
+* To interact with the features that the browser offers, JavaScript offers "facade functions" that look like JavaScript, but are actually part of the browser. Examples of these functions include console (which is console in web browser), fetch/xhr(network request), document(HTML DOM), and setTimeout(Timer).
 
  #### Web API Example('setTimeout()'):
 * When setTimeout is called, it doesn't break the rule of JavaScript being single-threaded.
+#### Callback Queue And Event Loop:
+* the functionality of the event loop, which ties the call stack and callback queue together.
 
 
