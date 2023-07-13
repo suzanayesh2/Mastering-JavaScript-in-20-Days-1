@@ -22,7 +22,7 @@
 #### Callback Queue And Event Loop:
 * the functionality of the event loop, which ties the call stack and callback queue together.
 
- # [Pair programming challenges :Asynchronicity](http://csbin.io/async)
+ ### [Pair programming challenges :Asynchronicity](http://csbin.io/async)
  ###### Note: We recommend that after you complete a challenge, you re-comment out the test case for that challenge so the console output is not confusing when working on subsequent challenges.
 #### My solution 
  ```javascript
@@ -112,7 +112,7 @@ func()
 // everyXsecsForYsecs(theEnd, 2, 20); // should invoke theEnd function every 2 seconds, for 20 seconds): This is the end!
 ```
 
-##  Promises:
+##  Promises :
 ## Lesson summary : 
 * #### There is a problem in ES5 Web Browser APIs with callback functions such that : Callback hell. So ES6+ comes with a solution : Promises
 * Using two-pronged ‘facade’ functions that both:
@@ -129,13 +129,16 @@ func()
 ```javascript
 function display(data){console.log(data)}
 function printHello(){console.log("Hello");}
-function blockFor300ms(){/* blocks js thread for 300ms }
+function blockFor300ms(){// blocks js thread for 300ms }
 setTimeout(printHello, 0);
 const futureData = fetch('https://twitter.com/will/tweets/1')
 futureData.then(display)
 blockFor300ms()
 console.log("Me first!");
 ```
-
-
+* Rules for the execution of our asynchronously delayed code: 
+ 1. Hold promise-deferred functions in a microtask queue and callback function in a task queue (Callback queue) when the Web Browser Feature (API) finishes
+ 1. Add the function to the Call stack (i.e. run the function) when:
+    - Call stack is empty & all global code run (Have the Event Loop check this condition)
+ 3. Prioritize functions in the microtask queue over the Callback queue
 
