@@ -8,7 +8,14 @@
   * Solution 1. Generate objects using a function:
   * Problems: Each time we create a new user we make space in our computer's memory for all our data and functions. But our functions are just copies.
   * Solution 2: Using the prototype chain (_The Core Solution_):
-  * All objects have a __proto__ property by default which defaults to linking to a big object - Object.prototype full of (somewhat) useful functions
+  * All objects have a __ proto __ property by default which defaults to linking to a big object - Object.prototype full of (somewhat) useful functions
+  * Solution 3 - Introducing the keyword that automates the hard work: new
+    * When we call the function that returns an object with new in front we automate 2 things
+    1. Create a new user object
+    2. Return the new user object
+   * Solution 4: The class ‘syntactic sugar’
+
+
 
 
 
