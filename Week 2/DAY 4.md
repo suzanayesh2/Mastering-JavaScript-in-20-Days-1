@@ -3,9 +3,16 @@
 * Core of development :
 1. Save data (e.g. in a quiz game the scores of user1 and user2)
 1. Run code (functions) using that data (e.g. increase user 2’s score)
+* The principle of encapsulation is store functions with their associated data!
+* Our code is getting repetitive, we're breaking our DRY principle. And suppose we have millions of users! What could we do?
+  * Solution 1. Generate objects using a function:
+  * Problems: Each time we create a new user we make space in our computer's memory for all our data and functions. But our functions are just copies.
+  * Solution 2: Using the prototype chain (_The Core Solution_):
+  * All objects have a __proto__ property by default which defaults to linking to a big object - Object.prototype full of (somewhat) useful functions
 
 
 
+---
 ## Code Examples:
 #### Iterate Over All Properties:
 * You have now seen two kinds of properties: own properties and prototype properties. Own properties are defined directly on the object instance itself. And prototype properties are defined on the prototype.
