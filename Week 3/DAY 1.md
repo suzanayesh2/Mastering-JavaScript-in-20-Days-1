@@ -9,6 +9,11 @@
   2. Scope:( Nested Scope, Hoisting, Closure, Modules)
   3. Objects (Oriented):( this, class { }, Prototypes, OO vs. OLOO)
 
-
+# Types:
+## Lesson Summary:
+* _null_ primitive type is _not_ considered as an object!
+* In JavaScript, variables don't have types, values do.
+* We can use utilites like ```typeof``` operator to know what the type of a value which is always return a string e.g ```"undefined"``` :
+    * ```typeof(null)``` will return the string ```"object"``` !!! . This is because a bug in JS spec! simple as that.
 
 
