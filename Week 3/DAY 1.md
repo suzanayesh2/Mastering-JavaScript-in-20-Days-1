@@ -56,7 +56,7 @@ console.log(convertStringToNumber("45"));
 console.log(convertStringToNumber(22));
 ```
 #### Question 2: Write a function called checkNaN that takes a single argument and returns true if the argument is NaN and false otherwise.
-#### #### My Solution:
+#### My Solution:
 ```javascript
 const checkNaN = (value) => {
     //write your own code here
@@ -72,4 +72,25 @@ const checkNaN = (value) => {
   console.log(checkNaN("Hi"));
   console.log(checkNaN([]));
   console.log(checkNaN({}));
+```
+#### Question 3: Write a function called isEmptyValue that checks if a given input is an empty value (undefined, null, or empty string).
+#### My Solution:
+```javascript
+function isEmptyValue(value) {
+    //write your own code here
+    if (Boolean(value) === false) {
+        return true;
+    }else return false 
+}
+
+// console.log(Number(undefined)); // Nan
+// console.log(Number(null)); // 0
+// console.log("".length); // 0
+// console.log(Number("")); // 0
+
+console.log(isEmptyValue(465));
+console.log(isEmptyValue(""));
+console.log(isEmptyValue(null));
+console.log(isEmptyValue(undefined)); 
+
 ```
