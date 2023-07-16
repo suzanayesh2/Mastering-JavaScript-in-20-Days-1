@@ -55,4 +55,21 @@ function convertStringToNumber(input) {
 console.log(convertStringToNumber("45"));
 console.log(convertStringToNumber(22));
 ```
+#### Question 2: Write a function called checkNaN that takes a single argument and returns true if the argument is NaN and false otherwise.
+#### #### My Solution:
+```javascript
+const checkNaN = (value) => {
+    //write your own code here
+    if(value !== value && isNaN(value)==true){
+    return true
+    }else{
+        return false
+    }
+  }
 
+  console.log(checkNaN(NaN));
+  console.log(checkNaN(34));
+  console.log(checkNaN("Hi"));
+  console.log(checkNaN([]));
+  console.log(checkNaN({}));
+```
