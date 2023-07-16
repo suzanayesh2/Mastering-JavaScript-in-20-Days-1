@@ -22,5 +22,37 @@
 * NaN(invalid number) so it is a number and it's an invalid one according to IEEE 754 spec and it is the only value that doesn't have the identity proprety (NaN === NaN //false! ) .
 * [Type check exercise and solution](https://github.com/M-Alsuleibi/Mastering-JavaScript-in-20-Days/tree/main/Week%203/Object-is-exersice)
      - _Note_: A polyfill is a piece of code that provides a service that you, the developer, expect it to provide natively
-   
+
+# Coercion:
+## Lesson Summary:
+* Coercion is a type conversion in JS
+* Abstract Operations :ToPrimitive(hint),ToString ,ToNumber and ToBoolean .
+* the term _boxing_ refers to _implicit coercion_ which we see an example of it like using methods on primitive value. e.g :
+  ```javascript
+  if(studentName.length()>20){
+  console.log("Name is too long!);
+  }
+  ```
+   ---
+# Code Exercises:
+#### Question 1: Write a function called convertStringToNumber that converts a string to a number using the unary plus operator. If the input is not a string, return an object of the input's value and type.
+#### My Solution:
+```javascript
+function convertStringToNumber(input) {
+    //write your own code here
+    if (typeof (input) === "string") {
+        return +input;
+    } else {
+        const obj = {
+            value: input,
+            type: typeof (input)
+        }
+        return obj;
+    }
+}
+
+
+console.log(convertStringToNumber("45"));
+console.log(convertStringToNumber(22));
+```
 
