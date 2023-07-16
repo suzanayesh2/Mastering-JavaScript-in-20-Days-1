@@ -16,8 +16,7 @@
    * Solution 4: The class ‘syntactic sugar’
 
 
-
-
+- This keyword rules are overridden when used with arrow functions, because of when arrow function contents are evaluated. 
 
 ---
 ## Code Examples:
