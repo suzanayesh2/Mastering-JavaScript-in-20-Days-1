@@ -97,6 +97,7 @@ console.log(isEmptyValue(undefined));
 #### Question 4: Write a function called compareObjects that takes 2 arguments of type "object" and compares them. If both arguments are equal, return true. If not, return false. If either argument is not of type "object", the function should return an array of the arguments.
 #### My Solution:
 ```javascript
+// THIS CODE HAVE TO BE FIXED
 function compareObjects(input1, input2) {
     //write your own code here
     if ((typeof input1 === "object") || (typeof input === "object")) {
@@ -112,4 +113,29 @@ console.log(compareObjects([3, 43], { "id": 342, "name": "Rami" }));
 console.log(compareObjects([3, 43], 8));
 console.log("hi","bye");
 console.log("hi",8);
+```
+#### Question 5: Write a function called complexCoercion that takes a single argument and checks if its type is primitive, and if so returns a coerced value according to the rules below.
+#### My Solution:
+```javascript
+const complexCoercion = (input) => {
+    //write your own code here
+    if (typeof input === 'number') {
+      return Boolean(String(input));
+    }
+    if (typeof input === 'string') {
+      return Boolean(input);
+    }
+    if (input === null || input === undefined) {
+      return Boolean(input);
+    }
+    return input;
+  };
+  
+console.log(complexCoercion(6));  
+console.log(complexCoercion(0));  
+console.log(complexCoercion('Hi')); 
+console.log(complexCoercion(null)); 
+console.log(complexCoercion(undefined));  
+console.log(complexCoercion([]));
+console.log(Boolean(0));
 ```
