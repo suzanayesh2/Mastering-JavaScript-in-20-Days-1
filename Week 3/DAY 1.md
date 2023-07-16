@@ -15,5 +15,10 @@
 * In JavaScript, variables don't have types, values do.
 * We can use utilites like ```typeof``` operator to know what the type of a value which is always return a string e.g ```"undefined"``` :
     * ```typeof(null)``` will return the string ```"object"``` !!! . This is because a bug in JS spec! simple as that.
-
+* Concepts of emptiness:  undefined vs. undeclared vs. uninitialized (aka TDZ):
+  * undefined mean there is definitly a variable ,and at the moment it has no value 
+  * undeclared mean it is never been created in any scope that we have access to
+  * [temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#temporal_dead_zone_tdz)
+* NaN(invalid number) so it is a number and it's an invalid one according to IEEE 754 spec and it is the only value that doesn't have the identity proprety (NaN === NaN //false! ) .
+* _Type check exercise_ Note: A polyfill is a piece of code that provides a service that you, the developer, expect it to provide natively
 
