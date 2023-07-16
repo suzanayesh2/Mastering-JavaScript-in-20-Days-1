@@ -94,3 +94,22 @@ console.log(isEmptyValue(null));
 console.log(isEmptyValue(undefined)); 
 
 ```
+#### Question 4: Write a function called compareObjects that takes 2 arguments of type "object" and compares them. If both arguments are equal, return true. If not, return false. If either argument is not of type "object", the function should return an array of the arguments.
+#### My Solution:
+```javascript
+function compareObjects(input1, input2) {
+    //write your own code here
+    if ((typeof input1 === "object") || (typeof input === "object")) {
+        return true
+    } else if (typeof input1 !== "object" && typeof input2 !== "object") {
+        return false;
+    } else {
+        return [input1, input2]
+    }
+}
+
+console.log(compareObjects([3, 43], { "id": 342, "name": "Rami" }));
+console.log(compareObjects([3, 43], 8));
+console.log("hi","bye");
+console.log("hi",8);
+```
