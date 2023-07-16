@@ -20,5 +20,7 @@
   * undeclared mean it is never been created in any scope that we have access to
   * [temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#temporal_dead_zone_tdz)
 * NaN(invalid number) so it is a number and it's an invalid one according to IEEE 754 spec and it is the only value that doesn't have the identity proprety (NaN === NaN //false! ) .
-* _Type check exercise_ Note: A polyfill is a piece of code that provides a service that you, the developer, expect it to provide natively
+* [Type check exercise and solution](https://github.com/M-Alsuleibi/Mastering-JavaScript-in-20-Days/tree/main/Week%203/Object-is-exersice)
+     - _Note_: A polyfill is a piece of code that provides a service that you, the developer, expect it to provide natively
+   
 
