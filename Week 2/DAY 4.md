@@ -131,3 +131,17 @@ let funModule = (function () {
   }
 })();
 ```
+## Code Example:
+[Use Prototype Properties to Reduce Duplicate Code](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-prototype-properties-to-reduce-duplicate-code)
+```javascript
+function Dog(name) {
+  this.name = name;
+}
+
+Dog.prototype.numLegs = 4;
+
+let beagle = new Dog("Snoopy");
+
+console.log(beagle.numLegs); // Output: 4
+
+```
